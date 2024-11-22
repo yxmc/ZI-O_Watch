@@ -1,17 +1,7 @@
-/*
- * @Author: yxmc 2737647040@qq.com
- * @Date: 2024-10-21 21:22:06
- * @LastEditors: yxmc 2737647040@qq.com
- * @LastEditTime: 2024-10-29 19:22:17
- * @FilePath: \ZHAO-Watch\System\Delay.c
- * @Description:
- *
- * Copyright (c) 2024 by yxmc, All Rights Reserved.
- */
 #include "delay.h"
 
- ////////////////////////////////////////////////////////////////////////////////// 	 
- //如果需要使用OS,则包括下面的头文件即可.
+////////////////////////////////////////////////////////////////////////////////// 	 
+//如果需要使用OS,则包括下面的头文件即可.
 #if SYSTEM_SUPPORT_OS
 #include "includes.h"					//ucos 使用	  
 #endif

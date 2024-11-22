@@ -1,13 +1,3 @@
-/*
- * @Author: yxmc 2737647040@qq.com
- * @Date: 2024-11-07 21:39:15
- * @LastEditors: yxmc 2737647040@qq.com
- * @LastEditTime: 2024-11-16 16:02:08
- * @FilePath: \ZHAO-Watch\Hardware\Menu\menu.h
- * @Description:
- *
- * Copyright (c) 2024 by yxmc, All Rights Reserved.
- */
 #ifndef __MENU_H
 #define __MENU_H
 #include "stm32f10x.h"                  // Device header
@@ -25,12 +15,12 @@
 #define		ON_OFF      2
 #define		Number		3
 
- //Display    仅展示 		  此状态下被执行时,不作任何动作,函数位不填,变量地址位不填
- //Function   可进入函数:    此状态下被执行时, 进入一次被选中函数,变量地址位不填
- //ON_OFF     开关:         此状态下被执行时, 将传入的地址的被选中变量取反一次,再进入被选中函数 
- //Number     变量:		此状态下被执行时, 将进入在菜单内部的 变量调节器,每调节一次就进入被选中函数一次
+//Display    仅展示 		  此状态下被执行时,不作任何动作,函数位不填,变量地址位不填
+//Function   可进入函数:    此状态下被执行时, 进入一次被选中函数,变量地址位不填
+//ON_OFF     开关:         此状态下被执行时, 将传入的地址的被选中变量取反一次,再进入被选中函数 
+//Number     变量:		此状态下被执行时, 将进入在菜单内部的 变量调节器,每调节一次就进入被选中函数一次
 
- /**********************************************************/
+/**********************************************************/
 
 
 struct option_class1        //菜单类型1
